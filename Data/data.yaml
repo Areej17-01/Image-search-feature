@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Tshirt', 'hoodie', 'knit', 'shirts']
+
+roboflow:
+  workspace: cap-tnr7c
+  project: top_2-u2pwr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cap-tnr7c/top_2-u2pwr/dataset/2
